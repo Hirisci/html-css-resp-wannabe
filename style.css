@@ -157,7 +157,7 @@ img {
     text-transform: uppercase;
   }
   .row {
-    width: 90%;
+    width: 100%;
     margin: 10px auto; 
   }
   
@@ -184,13 +184,19 @@ img {
     margin-bottom: 15px;
   }
 
+  #steps .row{
+
+  }
+
 
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
+    display: inline-block;
     float: none;
-    width: 70%;
+    width: calc(50% - 4px);
     margin: 20px auto;
+    padding: 20px;
   }
 
   #why hr{
